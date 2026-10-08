@@ -30,7 +30,7 @@ Two cameras, one mini PC, zero photos stored.
 
 <br>
 
-  > Built on the **K.A.V.A.C.H** codebase. The flat JSON store, Express scaffold, app shell and dashboard/detail page layout carried over. The Gemini document-analysis flow did not.
+> Built on the **K.A.V.A.C.H** codebase. The flat JSON store, Express scaffold, app shell and dashboard/detail page layout carried over. The Gemini document-analysis flow did not.
 
 ---
 
