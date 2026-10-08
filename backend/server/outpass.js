@@ -22,9 +22,9 @@ function newToken() {
   return crypto.randomBytes(24).toString('base64url');
 }
 
-/** Constant-time compare, so a wrong guess leaks nothing about a right one. */
+
 function sameToken(a, b) {
-  if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
+   if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
   return crypto.timingSafeEqual(Buffer.from(a), Buffer.from(b));
 }
 
